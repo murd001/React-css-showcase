@@ -1,0 +1,20 @@
+.hovercard {
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  border-radius: 8px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.hovercard h2 {
+  margin-bottom: 10px;
+}
+
+.hovercard:hover {
+  transform: translateY(-13px) rotateX(10deg);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
